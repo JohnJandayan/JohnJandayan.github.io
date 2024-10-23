@@ -92,26 +92,30 @@
 	h1.titled-3 {
 	    font-size: 30pt;
 	    background: linear-gradient(-541deg, #FFD700, #bc8314, #422006);
-	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
-	    transition: all 0.3s ease-in-out;
-	    padding-left: 100px;
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		transition: all 0.3s ease-in-out;
+		padding-left: 100px;
 	}
 
 	h1.titled-7 {
 	    font-size: 20pt;
-	    background: linear-gradient(-541deg, #FFD700, #bc8314, #422006);
-	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
-	    transition: all 0.3s ease-in-out;
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		transition: all 0.3s ease-in-out;
+		padding-left: 120px;
 	    padding-left: 120px;
-	}
-
 	.social {
-	    display: none;
-	    position: relative;
-	    flex-wrap: wrap;
-	    margin-top: 1000px;
+		display: flex;
+		position: relative;
+		flex-wrap: wrap;
+		margin-top: 1000px;
+		gap: 1.4rem;
+		justify-content: center;
+		align-items: center;
+	}
 	    gap: 1.4rem;
 	}
 
